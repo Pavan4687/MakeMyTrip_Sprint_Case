@@ -1,0 +1,160 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 61,
+        "name": "user want to select the armed force flights",
+        "description": "",
+        "id": "booking-flight;user-want-to-select-the-armed-force-flights",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13759665800,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "user is on the flight booking page in roundTrip",
+            "match": {
+              "location": "RoundTrip_Steps.user_is_on_the_flight_booking_page_roundTrip()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2303411800,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "user click on Round trip button in roundTrip",
+            "match": {
+              "location": "RoundTrip_Steps.user_click_on_round_trip_button_roundTrip()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 560670400,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "user select the from city in roundTrip",
+            "match": {
+              "location": "RoundTrip_Steps.user_enter_the_from_city_roundTrip()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 634671400,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "user select the to city in roundTrip",
+            "match": {
+              "location": "RoundTrip_Steps.user_enter_the_to_city_roundTrip()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 312669400,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "user select the date of traveling in roundTrip",
+            "match": {
+              "location": "RoundTrip_Steps.user_select_the_date_of_traveling_roundTrip()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 300773200,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "user select the return date of traveling in roundTrip",
+            "match": {
+              "location": "RoundTrip_Steps.user_select_the_retrn_date_of_traveling_roundTrip()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3216178800,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "user enter the details of passengers in roundTrip",
+            "match": {
+              "location": "RoundTrip_Steps.user_enter_the_details_of_passengers_roundTrip()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6905180000,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "click on search in roundTrip",
+            "match": {
+              "location": "RoundTrip_Steps.click_on_search_roundTrip()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 346533600,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "user clicked on armed force section",
+            "match": {
+              "location": "RoundTrip_Steps.user_clicked_on_armed_force_section()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 438014600,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "click on search in navigated page",
+            "match": {
+              "location": "RoundTrip_Steps.search_button_in_navigated_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7087952000,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "user will see the available flights",
+            "match": {
+              "location": "RoundTrip_Steps.user_is_able_to_see_the_Armed_roundTrip()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Armed_Forces"
+          }
+        ]
+      }
+    ],
+    "name": "Booking flight",
+    "description": "",
+    "id": "booking-flight",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/flight.feature",
+    "tags": []
+  }
+]
